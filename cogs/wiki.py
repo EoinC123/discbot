@@ -7,7 +7,7 @@ class wiki(commands.Cog):
         self.client = client
 
     @commands.command(pass_context=True)
-    async def wikisearch(self, ctx, query: str):
+    async def wiki(self, ctx, query: str):
         result = wikipedia.summary(query)
         await ctx.message.channel.send(result)
 
