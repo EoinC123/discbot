@@ -83,7 +83,7 @@ LOG_DIR = os.path.join(PROJECT_BASE_DIR, "logs")
 if not os.path.exists(LOG_DIR):
     os.makedirs(LOG_DIR)
 
-log_filename = f"{date.today().strftime('%Y_%m_%d')}_cumlog.log"
+log_filename = f"{date.today().strftime('%Y_%m_%d')}square.log"
 full_log_name = f"{os.path.join(LOG_DIR, log_filename)}"
 Path(full_log_name).touch(exist_ok=True)
 

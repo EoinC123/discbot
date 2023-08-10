@@ -1,0 +1,78 @@
+19:07:50,980 BaseLogger INFO We have logged in as None
+19:07:51,265 discord.client INFO logging in using static token
+19:07:52,989 discord.gateway INFO Shard ID None has connected to Gateway (Session ID: ab56026e41b6aeb291e017e2dbb5f7ce).
+19:08:31,532 discord.ext.commands.bot ERROR Ignoring exception in command create
+Traceback (most recent call last):
+  File "/home/kali/github_projects/discbot/venv/lib/python3.10/site-packages/discord/ext/commands/core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "/home/kali/github_projects/discbot/cogs/economy.py", line 21, in create
+    cur.execute('''SELECT user_id FROM users WHERE user_id=?''', user)
+ValueError: parameters are of unsupported type
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/kali/github_projects/discbot/venv/lib/python3.10/site-packages/discord/ext/commands/bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "/home/kali/github_projects/discbot/venv/lib/python3.10/site-packages/discord/ext/commands/core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+  File "/home/kali/github_projects/discbot/venv/lib/python3.10/site-packages/discord/ext/commands/core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: ValueError: parameters are of unsupported type
+19:10:41,717 BaseLogger INFO We have logged in as None
+19:10:41,993 discord.client INFO logging in using static token
+19:10:43,542 discord.gateway INFO Shard ID None has connected to Gateway (Session ID: f65474c30018683467c009b56af311a3).
+19:10:56,311 discord.ext.commands.bot ERROR Ignoring exception in command create
+Traceback (most recent call last):
+  File "/home/kali/github_projects/discbot/venv/lib/python3.10/site-packages/discord/ext/commands/core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "/home/kali/github_projects/discbot/cogs/economy.py", line 21, in create
+    cur.execute('''SELECT user_id FROM users WHERE user_id=?''', user)
+sqlite3.ProgrammingError: Incorrect number of bindings supplied. The current statement uses 1, and there are 18 supplied.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/kali/github_projects/discbot/venv/lib/python3.10/site-packages/discord/ext/commands/bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "/home/kali/github_projects/discbot/venv/lib/python3.10/site-packages/discord/ext/commands/core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+  File "/home/kali/github_projects/discbot/venv/lib/python3.10/site-packages/discord/ext/commands/core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: ProgrammingError: Incorrect number of bindings supplied. The current statement uses 1, and there are 18 supplied.
+19:13:39,283 BaseLogger INFO We have logged in as None
+19:13:39,629 discord.client INFO logging in using static token
+19:13:41,132 discord.gateway INFO Shard ID None has connected to Gateway (Session ID: ace7708bde07ef376f6d27aed6a42e34).
+19:13:44,823 discord.ext.commands.bot ERROR Ignoring exception in command create
+Traceback (most recent call last):
+  File "/home/kali/github_projects/discbot/venv/lib/python3.10/site-packages/discord/ext/commands/core.py", line 235, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "/home/kali/github_projects/discbot/cogs/economy.py", line 21, in create
+    cur.execute('''SELECT user_id FROM users WHERE user_id=?''', user)
+ValueError: parameters are of unsupported type
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/kali/github_projects/discbot/venv/lib/python3.10/site-packages/discord/ext/commands/bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "/home/kali/github_projects/discbot/venv/lib/python3.10/site-packages/discord/ext/commands/core.py", line 1029, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+  File "/home/kali/github_projects/discbot/venv/lib/python3.10/site-packages/discord/ext/commands/core.py", line 244, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: ValueError: parameters are of unsupported type
+19:14:46,608 BaseLogger INFO We have logged in as None
+19:14:46,948 discord.client INFO logging in using static token
+19:14:48,843 discord.gateway INFO Shard ID None has connected to Gateway (Session ID: 4cae9613af505e5f6e85c5105231fcbe).
+19:20:28,675 BaseLogger INFO We have logged in as None
+19:20:28,965 discord.client INFO logging in using static token
+19:20:30,661 discord.gateway INFO Shard ID None has connected to Gateway (Session ID: 08eee81132483dc84918e008bc1fd46f).
+19:23:27,687 BaseLogger INFO We have logged in as None
+19:23:28,44 discord.client INFO logging in using static token
+19:23:29,821 discord.gateway INFO Shard ID None has connected to Gateway (Session ID: 7d1033af7667483cdb939463b8d2deb4).
+19:26:56,971 BaseLogger INFO We have logged in as None
+19:26:57,266 discord.client INFO logging in using static token
+19:26:59,130 discord.gateway INFO Shard ID None has connected to Gateway (Session ID: f10e2a3eb00d89d70259abcd10564120).
+19:27:58,586 BaseLogger INFO We have logged in as None
+19:27:58,879 discord.client INFO logging in using static token
+19:28:00,407 discord.gateway INFO Shard ID None has connected to Gateway (Session ID: 50c1841015c55d63f0788f9302f19f7d).

@@ -5,6 +5,8 @@ import json
 import discord
 from discord.ext import commands
 
+import settings
+
 # bot setup (load cogs, set intents and establish command prefix
 intents = discord.Intents.default()
 intents.message_content = True
@@ -28,6 +30,7 @@ async def load():
 
 @client.event
 async def main():
+    settings.LOGGER.info('We have logged in as {0.user}'.format(client))
     await load()
     await client.start(configData["Token"])
 

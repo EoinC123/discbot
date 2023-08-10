@@ -1,2 +1,5 @@
 config.json
 cogs/__pycache__
+*.db
+/logs
+.log
