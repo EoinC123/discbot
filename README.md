@@ -6,9 +6,15 @@ To run this bot locally, you need to create a file "config.json" within the base
 Within this config file you need the following field:
 `"Token": "<your discord token>"`
 This will allow the bot to run within your discord server.
+To then run the bot you need to enter the command:
+`./bot.py`
+This will run everything and load the cogs.
 
 ## Features
-The bot currently allows you to do the following:
-- Check bot latency with `!ping`
-- Search wikipedia with command `!wikipedia` to return a summary
+The bot runs off of cogs. Think of them as a micro-service that the bot loads when ran from the command line.
+On boot, the bot will load the cogs recursivly within the `/cogs` directory. If you want to add new cogs then you add them there.
+As of now the bot has the following operational cogs:
+- base_commands
+- wikipedia
+
 
