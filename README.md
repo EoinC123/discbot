@@ -14,7 +14,8 @@ This will run everything and load the cogs.
 The bot runs off of cogs. Think of them as a micro-service that the bot loads when ran from the command line.
 On boot, the bot will load the cogs recursivly within the `/cogs` directory. If you want to add new cogs then you add them there.
 As of now the bot has the following operational cogs:
-- base_commands
-- wikipedia
+- base_commands (check ping of bot)
+- wikipedia (view summaries from wikipedia)
+- economy (commands to add users to DB and view wallet balance)
 
 
